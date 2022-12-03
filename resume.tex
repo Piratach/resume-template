@@ -1,0 +1,189 @@
+%&tex
+
+\documentclass[10pt]{article}
+\usepackage{geometry}
+\geometry{
+ a4paper,
+ % papersize={8.5in,11in},
+ % total={170mm,257mm},
+ left=20mm,
+ right=20mm,
+ top=3mm,
+ bottom=10mm
+ }
+\usepackage{titling}
+\setlength{\droptitle}{-1.5em}
+\usepackage{graphicx}
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{lighterB}{RGB}{0,40,180}
+\definecolor{lighterG}{RGB}{60,60,70}
+
+\newcommand{\CC}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\bf +}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\bf +}}
+
+\newcommand\myemail{
+  \href{mailto:piratacy@andrew.cmu.edu} 
+  {example@email.com}
+}
+
+\title{\bfseries\Huge FirstName LastName}
+\renewcommand\maketitlehookb{\vspace{-5ex}}
+\author{
+  \small \myemail
+   $\sbullet[.75]$
+   (+5) 555-555-5555 % phone number
+   % $\sbullet[.75]$
+   % [Additional Phone Number]
+   $\sbullet[.75]$
+  \href{https://github.com/}{Github}
+   $\sbullet[.75]$
+  \href{https://www.linkedin.com/in/}
+{Linkedin}
+}
+\date{}
+\setlength\parindent{0pt}
+\pagestyle{empty}
+
+\begin{document}
+  \maketitle
+  \thispagestyle{empty}
+  \vspace*{-1.0cm}
+  \hrule
+  \vspace*{-0.15cm}
+
+  \section*{\Large \textcolor{lighterB}{EDUCATION}}
+  \vspace*{-0.2cm}  % use this to adjust spacing
+  \textbf{\large \textcolor{Black}{Some University $\sbullet$ City, Country}} \hfill \textit{(Start Date - expected End Date)}
+
+  \vspace{0.05cm}
+
+  \textcolor{Black}{\textbf{B.S. in Field, Additional Information} \hfill GPA: 2.0}
+  \vspace{0.2cm}
+
+  \vspace*{-0.5cm}
+
+  \subsection*{Selected \textcolor{Black}{Coursework:}}
+
+    \vspace*{-0.55cm}
+    \begin{multicols}{2}
+       xx-xxx, Relevant Class You Are Taking (Current) \\
+       xx-xxx, Relevant Class Taken \\
+       xx-xxx, Relevant Class Taken \\
+       \columnbreak
+       xx-xxx, Relevant Class Taken \\
+       xx-xxx, Relevant Class Taken \\
+       xx-xxx, Relevant Class Taken \\
+       xx-xxx, Relevant Class Taken \\
+       xx-xxx, Relevant Class Taken
+    \end{multicols}
+
+  \section*{\Large \textcolor{lighterB} {WORK EXPERIENCE}}
+  \vspace*{-0.15cm}  % use this to adjust spacing
+
+  \textbf{\large Some Company $\sbullet$} {\large Role $\sbullet$ \textit{City, Country} \hfill \textit{\textbf{(Start Date - Current)}}}
+
+  \vspace*{-0.2cm}
+  \begin{itemize}
+    \itemsep-0.4em
+    \item \textcolor{lighterG}{Detail.}
+    \item \textcolor{lighterG}{Some additional details.}
+    \item \textcolor{lighterG}{Impact of the work.}
+  \end{itemize}
+
+  \textbf{\large Some Company $\sbullet$} {\large Role $\sbullet$ \textit{City, Country} \hfill \textit{\textbf{(Start Date - End Date)}}}
+
+  \vspace*{-0.2cm}
+  \begin{itemize}
+    \itemsep-0.4em
+    \item \textcolor{lighterG}{Detail.}
+    \item \textcolor{lighterG}{Some additional details.}
+    \item \textcolor{lighterG}{Impact of the work.}
+  \end{itemize}
+
+  \textbf{\large Some Company $\sbullet$} {\large Role $\sbullet$ \textit{City, Country} \hfill \textit{\textbf{(Start Date - End Date)}}}
+
+  \vspace*{-0.2cm}
+  \begin{itemize}
+    \itemsep-0.4em
+    \item \textcolor{lighterG}{Detail.}
+    \item \textcolor{lighterG}{Some additional details.}
+    \item \textcolor{lighterG}{Impact of the work.}
+  \end{itemize}
+
+  \textbf{\large Some Company $\sbullet$} {\large Role $\sbullet$ \textit{City, Country} \hfill \textit{\textbf{(Start Date - End Date)}}}
+
+  \vspace*{-0.2cm}
+  \begin{itemize}
+    \itemsep-0.4em
+    \item \textcolor{lighterG}{Detail.}
+    \item \textcolor{lighterG}{Some additional details.}
+    \item \textcolor{lighterG}{Impact of the work.}
+  \end{itemize}
+
+  \section*{\Large \textcolor{lighterB}{EXTRACURRICULAR ACTIVITIES}}
+  \vspace*{-0.15cm}
+
+  \textbf{\large {Extracurricular Activity 1} $\mid$ Technology Used} 
+  \vspace*{-0.17cm}
+  \begin{itemize}
+    \itemsep0em
+    \item \textcolor{lighterG}{Some details.}
+  \end{itemize}
+
+  \textbf{\large {Extracurricular Activity 2} $\mid$ Technology Used} 
+  \vspace*{-0.17cm}
+  \begin{itemize}
+    \itemsep0em
+    \item \textcolor{lighterG}{Some details.}
+  \end{itemize}
+
+  \textbf{\large {Extracurricular Activity 3} $\mid$ Technology Used} 
+  \vspace*{-0.17cm}
+  \begin{itemize}
+    \itemsep0em
+    \item \textcolor{lighterG}{Some details.}
+  \end{itemize}
+
+  % \vspace*{-0.8cm}
+  % \section*{\LARGE Languages}
+  % \vspace*{-0.1cm}
+  % \hrule depth 0.2mm \relax
+  % \vspace*{0.2cm}
+
+  % \vspace*{-0.6cm}
+  % \vspace{0.1cm}
+  \section*{\Large \textcolor{lighterB}{ACHIEVEMENTS \& SKILLS}}
+  \vspace*{-0.1cm}  % use this to adjust spacing
+  \textbf{\large {Achievement 1} $\mid$ Date} 
+  \vspace*{-0.17cm}
+  \begin{itemize}
+    \itemsep0em
+    \item \textcolor{lighterG}{Some details.}
+  \end{itemize}
+
+  \textbf{\large {Achievement 2} $\mid$ Date} 
+  \vspace*{-0.17cm}
+  \begin{itemize}
+    \itemsep0em
+    \item \textcolor{lighterG}{Some details.}
+  \end{itemize}
+
+  % You can adjust the section sizes as you see fit. If you have extra
+  % space, I advise you to expand more on this section (or make it look
+  % nicer)
+  \textbf{\large {Languages:}}
+    Python $\sbullet[.75]$ 
+    C++ $\sbullet[.75]$
+    C $\sbullet[.75]$ 
+    Assembly $\sbullet[.75]$ 
+    SML $\sbullet[.75]$ 
+    Go $\sbullet[.75]$ 
+    Java $\sbullet[.75]$
+    SQL $\sbullet[.75]$ 
+    HTML $\sbullet[.75]$ 
+    Javascript
+
+\end{document}
